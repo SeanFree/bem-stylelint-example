@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:style": "stylelint ./**/*.css"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
