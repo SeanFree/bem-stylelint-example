@@ -1,0 +1,18 @@
+{
+  "name": "bem-stylelint-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-selector-bem-pattern": "^4.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  }
+}
